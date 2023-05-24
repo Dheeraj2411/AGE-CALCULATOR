@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Age Calculator</h1>
+    <main class="container">
+        <div class="input">
+            <label for="birthdate">Enter Your BirthDate:</label>
+            <input type="date" id="birthdate" >
+        </div> 
+        <ul>
+            <li class="list"><span id="years">Years :</span></li>
+            <li class="list"><span id="months">Months :</span></li>
+            <li class="list"><span id="days">Days :</span></li>
+            <li class="list"><span id="hours">Hours :</span></li>
+            <li class="list"><span id="minutes">Minutes :</span></li>
+            <li class="list"><span id="seconds">Seconds :</span></li>
+        </ul>
+        <div class="btns">
+            <button onclick="calculate()">Calculate</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </main>
+    <script src="App.js"></script>
+</body>
+
+</html>
